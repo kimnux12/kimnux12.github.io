@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "kimnux"
-  avatar : "/assets/images/fox.png"
+  avatar : "/assets/images/pngegg.png"
   bio    : "컴퓨터와 리눅스에 관한 주러리 주저리"
   links:
     - label: "Website"
@@ -64,7 +64,7 @@ author:
       url: "https://kimnux12.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/kimnux12/dotfile"
 
 footer:
   links:
