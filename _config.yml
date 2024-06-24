@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "kimnux"
   avatar : "/assets/images/fox.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "컴퓨터와 리눅스에 관한 주러리 주저리"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
