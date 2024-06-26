@@ -25,7 +25,7 @@ tags:
 **starship**, **ble.sh**, **eza** 3가지이다.  
 
 <b><span style="font-size:150%">1. starship</span></b>  
-링크 : <https://starship.rs/a>  
+링크 : <https://starship.rs>  
 터미널 프롬프트를 꾸밀 수 있는 프로그램이다.  
 
 <b><span style="font-size:150%">2. ble.sh</span></b>  
