@@ -22,8 +22,10 @@ tags:
 편리함과 알록달록 이쁘기도 해서 현재 bash에서 사용중인 조합을 적어볼까한다.  
 
 ![screenshot](/assets/images/2024-06-26-124531_hyprshot.png)  
+색상은 사용하는 터미널의 테마에 따라 조금씩 다르게 나올 수 있다.  
+(위의 스크린샷은 foot terminal의 catppuccin 테마)  
 
-**starship**, **ble.sh**, **eza** 3가지이다.  
+**starship**, **ble.sh**, **eza** 3가지가 바로 그것들이다.  
 
 <b><span style="font-size:150%">1. starship</span></b>  
 링크 : <https://starship.rs>  
