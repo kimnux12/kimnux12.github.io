@@ -23,7 +23,8 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.26.2
+#remote_theme: mmistakes/minimal-mistakes@4.26.2
+remote_theme: cotes2020/jekyll-theme-chirpy
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -91,6 +92,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+theme_mode: dark
 
 category_archive:
   type: liquid
