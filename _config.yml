@@ -18,12 +18,13 @@ email: kimnux@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   아치리눅스, bash등에서 기억해야 할 것들을 기록하는 공간
 github_username: kimnux12
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.26.2
+theme: minimal-mistakes-jekyll
+#remote_theme: mmistakes/minimal-mistakes@4.26.2
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
