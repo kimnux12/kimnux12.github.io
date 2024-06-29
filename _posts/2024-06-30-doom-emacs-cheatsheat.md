@@ -240,4 +240,5 @@ Custom config:
 ``` elisp   
 (global-set-key (kbd "C-:") 'avy-goto-char)  
 ```  
-`C-:` `char` `char` for quick navigation  
+`C-:` `char` `char` for quick navigationa
+
