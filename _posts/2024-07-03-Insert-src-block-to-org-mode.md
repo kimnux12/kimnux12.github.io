@@ -4,6 +4,15 @@
 
 2.  \< + 원하는 단축키 + TAB
 
-> 단축키 유형: n - notes a - export ascii c - center C - comment e -
-> example E - export h - export html l - export latex q - quote s - src
+> 단축키 유형:  
+> n - notes  
+> a - export ascii  
+> c - center  
+> C - comment  
+> e - example  
+> E - export  
+> h - export html  
+> l - export latex  
+> q - quote  
+> s - src  
 > v - verse
