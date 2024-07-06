@@ -13,47 +13,39 @@ auto pair는 vim에서 자동으로 괄호를 맞춰서 생성해주는 애드�
 1.***그냥 뒷 괄호를 입력하면 뒷괄호 다음으로 커서가 자동 이동한다.***
 
 ```bash
-
 input:
 {
    something;|
 }
-
 ```
 
 커서가 \| 위치에 있을 때, }를 입력하면
 
 ```bash
-
 output:
 {
     something;
 }|
-
 ```
 
 2.***Fly Mode***
 
 ```bash
-
 input:
 {
    hello();|
    hello();
 }
-
 ```
 
 만약 커서가 윗 줄 hello() 다음에 위치한 경우
 
 ```bash
-
 output:
 {
    hello();
    hello();
 }|
-
 ```
 
 }를 입력하면 닫힘 괄호 뒤로 커서가 이동한다.  
