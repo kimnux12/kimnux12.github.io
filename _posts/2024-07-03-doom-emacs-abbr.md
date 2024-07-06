@@ -62,6 +62,10 @@ SPC f s
 
 SPC f S
 
+### 주석표시(;;) 일괄표시, 삭제
+
+M-;
+
 ## Doom emacs 관련
 
 ### Run Command(M-x)
