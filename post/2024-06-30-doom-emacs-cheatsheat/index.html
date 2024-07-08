@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Linux에 관한 주저리 주러지</title>
+<meta name="keywords" content="">
+<meta name="description" content="Doom Emacs Default keybindings cheetsheet [출처]https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165
+SPC
+SPC find file , switch bufferA . browse files : MX ; EX &lt; switch buffer ` eval u universal arg x pop up scratch ~ toggle last popup TAB workspace TAB Display tab bar . switch workspace 0 last workspace 1-9 x workspace L load session S autosave current session X delete sessions [ previous workspace ] next workspace d delete workspace l load workspace from file n workspace s save workspace to file x kill all buffers&#39; / search i symbols I symbols accr.">
+<meta name="author" content="">
+<link rel="canonical" href="https://kimnux12.github.io/post/2024-06-30-doom-emacs-cheatsheat/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://kimnux12.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kimnux12.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kimnux12.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://kimnux12.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://kimnux12.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://kimnux12.github.io/post/2024-06-30-doom-emacs-cheatsheat/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="Doom Emacs Default keybindings cheetsheet [출처]https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165
+SPC
+SPC find file , switch bufferA . browse files : MX ; EX &lt; switch buffer ` eval u universal arg x pop up scratch ~ toggle last popup TAB workspace TAB Display tab bar . switch workspace 0 last workspace 1-9 x workspace L load session S autosave current session X delete sessions [ previous workspace ] next workspace d delete workspace l load workspace from file n workspace s save workspace to file x kill all buffers&#39; / search i symbols I symbols accr." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kimnux12.github.io/post/2024-06-30-doom-emacs-cheatsheat/" /><meta property="article:section" content="post" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Doom Emacs Default keybindings cheetsheet [출처]https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165
+SPC
+SPC find file , switch bufferA . browse files : MX ; EX &lt; switch buffer ` eval u universal arg x pop up scratch ~ toggle last popup TAB workspace TAB Display tab bar . switch workspace 0 last workspace 1-9 x workspace L load session S autosave current session X delete sessions [ previous workspace ] next workspace d delete workspace l load workspace from file n workspace s save workspace to file x kill all buffers&#39; / search i symbols I symbols accr."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://kimnux12.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "",
+      "item": "https://kimnux12.github.io/post/2024-06-30-doom-emacs-cheatsheat/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "",
+  "name": "",
+  "description": "Doom Emacs Default keybindings cheetsheet [출처]https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165\nSPC\nSPC find file , switch bufferA . browse files : MX ; EX \u0026lt; switch buffer ` eval u universal arg x pop up scratch ~ toggle last popup TAB workspace TAB Display tab bar . switch workspace 0 last workspace 1-9 x workspace L load session S autosave current session X delete sessions [ previous workspace ] next workspace d delete workspace l load workspace from file n workspace s save workspace to file x kill all buffers' / search i symbols I symbols accr.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Doom Emacs Default keybindings cheetsheet [출처]https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165\nSPC\nSPC find file , switch bufferA . browse files : MX ; EX \u003c switch buffer ` eval u universal arg x pop up scratch ~ toggle last popup TAB workspace TAB Display tab bar . switch workspace 0 last workspace 1-9 x workspace L load session S autosave current session X delete sessions [ previous workspace ] next workspace d delete workspace l load workspace from file n workspace s save workspace to file x kill all buffers' / search i symbols I symbols accr. buffers b buffer d directory o Online providers p project [ prev S spelling corr [ text size b buffer d diff e error h smart jump s spelling error t todo w workspace ] next S spelling corr [ text size b buffer d diff e error h smart jump s spelling error t todo w workspace b buffer B switch buffer S sudo edit [ prev ] next b switch ws buffer k kill buffer n new empty buffer o kill other buffers s save buffer x pop scratch buffer z burry buffer c code d jump to def D jump to ref e evaluate buffer E evaluate and replace b build r repl x list errors f file . find file / find file in project \u003e sudo find file ? find file from here E Browse emacs.d P browse private config R recent project files a find other file c open project editor config d find dir e find file in emacs.d p find file in private config r recent files y yank filename g git c magit commit C magit clone G list gists L list reps P magic pull popup R git revert S git stage U git unstange hunk [ previous ] next b magic blame d magic dispatch f magic find g magit status i init repo l magit buffer log p push popup r git revert hunk s git status t git time matchine o open O reveal proj in finder b browser d debugger p open current project in neotree o reveal in finder r repl t terminal p project ! run cmd in project root . browse / find in project c compile project o find other file p switch project r recent project files t list project tasks x invalidate cache q quit q save and quit Q quit r remote . browse remote files \u003e detect remote changes D diff local and remote U upload local d download remote u upload local s snippets S find snippet i insert snippet n new snippet s find snippet for mode t toggle F frame fullscreen I indente b big mode f flycheck g evil goggles h impatient modei indet guides l line numbers p org-tree-slide-mode s flyspell w window + increase height - descr height \u003c dec width = balance windows \u003e incr width H move left J move down K move up L move right R rotate up S split W prev _ set height b bottom right c close window h left j down k up l right n new o enlargen p mru q quit r rotate down s split t top left u winner undo v vsplit w next | set width Code Folding (evil mode) z\na toggle fold c close fold m close all folds r open all folds Treemarks (Only available if TreeMarks is enabled, NeoTree is the default) ? toggle help j/k navigation M-j/M-k Nav to neighbout u go to parent o open o no split v horizontal s vertical x externally c create f file d dir R rename d delete y f copy m move t toggle f follow mode a filewatch mode g git mode h show hidden w resizability v fringe indicator C-c C-p project a add project d remove project r rename project C-c C-w workspace e edit a create d remove r rename s switch f set fallback g r refresh w (re)set width y y copy path y r copy root SPC resort b bookmark Avy-goto-char Custom config:\n(global-set-key (kbd \"C-:\") 'avy-goto-char) C-: char char for quick navigationa\n",
+  "wordCount" : "697",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kimnux12.github.io/post/2024-06-30-doom-emacs-cheatsheat/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Linux에 관한 주저리 주러지",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kimnux12.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://kimnux12.github.io/" accesskey="h" title="Linux에 관한 주저리 주러지 (Alt + H)">Linux에 관한 주저리 주러지</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="doom-emacs-default-keybindings-cheetsheet">Doom Emacs Default keybindings cheetsheet<a hidden class="anchor" aria-hidden="true" href="#doom-emacs-default-keybindings-cheetsheet">#</a></h1>
+<p>[출처]<a href="https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165">https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165</a></p>
+<p><code>SPC</code></p>
+<ul>
+<li><code>SPC</code> find file</li>
+<li><code>,</code> switch bufferA</li>
+<li><code>.</code> browse files</li>
+<li><code>:</code> MX</li>
+<li><code>;</code> EX</li>
+<li><code>&lt;</code> switch buffer</li>
+<li><code>`</code> eval</li>
+<li><code>u</code> universal arg</li>
+<li><code>x</code> pop up scratch</li>
+<li><code>~</code> toggle last popup</li>
+<li><code>TAB</code> workspace</li>
+<li><code>TAB</code> Display tab bar</li>
+<li><code>.</code> switch workspace</li>
+<li><code>0</code> last workspace</li>
+<li><code>1-9</code> x workspace</li>
+<li><code>L</code> load session</li>
+<li><code>S</code> autosave current session</li>
+<li><code>X</code> delete sessions</li>
+<li><code>[</code> previous workspace</li>
+<li><code>]</code> next workspace</li>
+<li><code>d</code> delete workspace</li>
+<li><code>l</code> load workspace from file</li>
+<li><code>n</code> workspace</li>
+<li><code>s</code> save workspace to file</li>
+<li><code>x</code> kill all buffers'</li>
+<li><code>/</code> search</li>
+<li><code>i</code> symbols</li>
+<li><code>I</code> symbols accr. buffers</li>
+<li><code>b</code> buffer</li>
+<li><code>d</code> directory</li>
+<li><code>o</code> Online providers</li>
+<li><code>p</code> project</li>
+<li><code>[</code> prev</li>
+<li><code>S</code> spelling corr</li>
+<li><code>[</code> text size</li>
+<li><code>b</code> buffer</li>
+<li><code>d</code> diff</li>
+<li><code>e</code> error</li>
+<li><code>h</code> smart jump</li>
+<li><code>s</code> spelling error</li>
+<li><code>t</code> todo</li>
+<li><code>w</code> workspace</li>
+<li><code>]</code> next</li>
+<li><code>S</code> spelling corr</li>
+<li><code>[</code> text size</li>
+<li><code>b</code> buffer</li>
+<li><code>d</code> diff</li>
+<li><code>e</code> error</li>
+<li><code>h</code> smart jump</li>
+<li><code>s</code> spelling error</li>
+<li><code>t</code> todo</li>
+<li><code>w</code> workspace</li>
+<li><code>b</code> buffer</li>
+<li><code>B</code> switch buffer</li>
+<li><code>S</code> sudo edit</li>
+<li><code>[</code> prev</li>
+<li><code>]</code> next</li>
+<li><code>b</code> switch ws buffer</li>
+<li><code>k</code> kill buffer</li>
+<li><code>n</code> new empty buffer</li>
+<li><code>o</code> kill other buffers</li>
+<li><code>s</code> save buffer</li>
+<li><code>x</code> pop scratch buffer</li>
+<li><code>z</code> burry buffer</li>
+<li><code>c</code> code</li>
+<li><code>d</code> jump to def</li>
+<li><code>D</code> jump to ref</li>
+<li><code>e</code> evaluate buffer</li>
+<li><code>E</code> evaluate and replace</li>
+<li><code>b</code> build</li>
+<li><code>r</code> repl</li>
+<li><code>x</code> list errors</li>
+<li><code>f</code> file</li>
+<li><code>.</code> find file</li>
+<li><code>/</code> find file in project</li>
+<li><code>&gt;</code> sudo find file</li>
+<li><code>?</code> find file from here</li>
+<li><code>E</code> Browse emacs.d</li>
+<li><code>P</code> browse private config</li>
+<li><code>R</code> recent project files</li>
+<li><code>a</code> find other file</li>
+<li><code>c</code> open project editor config</li>
+<li><code>d</code> find dir</li>
+<li><code>e</code> find file in emacs.d</li>
+<li><code>p</code> find file in private config</li>
+<li><code>r</code> recent files</li>
+<li><code>y</code> yank filename</li>
+<li><code>g</code> git</li>
+<li><code>c</code> magit commit</li>
+<li><code>C</code> magit clone</li>
+<li><code>G</code> list gists</li>
+<li><code>L</code> list reps</li>
+<li><code>P</code> magic pull popup</li>
+<li><code>R</code> git revert</li>
+<li><code>S</code> git stage</li>
+<li><code>U</code> git unstange hunk</li>
+<li><code>[</code> previous</li>
+<li><code>]</code> next</li>
+<li><code>b</code> magic blame</li>
+<li><code>d</code> magic dispatch</li>
+<li><code>f</code> magic find</li>
+<li><code>g</code> magit status</li>
+<li><code>i</code> init repo</li>
+<li><code>l</code> magit buffer log</li>
+<li><code>p</code> push popup</li>
+<li><code>r</code> git revert hunk</li>
+<li><code>s</code> git status</li>
+<li><code>t</code> git time matchine</li>
+<li><code>o</code> open</li>
+<li><code>O</code> reveal proj in finder</li>
+<li><code>b</code> browser</li>
+<li><code>d</code> debugger</li>
+<li><code>p</code> open current project in neotree</li>
+<li><code>o</code> reveal in finder</li>
+<li><code>r</code> repl</li>
+<li><code>t</code> terminal</li>
+<li><code>p</code> project</li>
+<li><code>!</code> run cmd in project root</li>
+<li><code>.</code> browse</li>
+<li><code>/</code> find in project</li>
+<li><code>c</code> compile project</li>
+<li><code>o</code> find other file</li>
+<li><code>p</code> switch project</li>
+<li><code>r</code> recent project files</li>
+<li><code>t</code> list project tasks</li>
+<li><code>x</code> invalidate cache</li>
+<li><code>q</code> quit</li>
+<li><code>q</code> save and quit</li>
+<li><code>Q</code> quit</li>
+<li><code>r</code> remote</li>
+<li><code>.</code> browse remote files</li>
+<li><code>&gt;</code> detect remote changes</li>
+<li><code>D</code> diff local and remote</li>
+<li><code>U</code> upload local</li>
+<li><code>d</code> download remote</li>
+<li><code>u</code> upload local</li>
+<li><code>s</code> snippets</li>
+<li><code>S</code> find snippet</li>
+<li><code>i</code> insert snippet</li>
+<li><code>n</code> new snippet</li>
+<li><code>s</code> find snippet for mode</li>
+<li><code>t</code> toggle</li>
+<li><code>F</code> frame fullscreen</li>
+<li><code>I</code> indente</li>
+<li><code>b</code> big mode</li>
+<li><code>f</code> flycheck</li>
+<li><code>g</code> evil goggles</li>
+<li><code>h</code> impatient modei indet guides</li>
+<li><code>l</code> line numbers</li>
+<li><code>p</code> org-tree-slide-mode</li>
+<li><code>s</code> flyspell</li>
+<li><code>w</code> window</li>
+<li><code>+</code> increase height</li>
+<li><code>-</code> descr height</li>
+<li><code>&lt;</code> dec width</li>
+<li><code>=</code> balance windows</li>
+<li><code>&gt;</code> incr width</li>
+<li><code>H</code> move left</li>
+<li><code>J</code> move down</li>
+<li><code>K</code> move up</li>
+<li><code>L</code> move right</li>
+<li><code>R</code> rotate up</li>
+<li><code>S</code> split</li>
+<li><code>W</code> prev</li>
+<li><code>_</code> set height</li>
+<li><code>b</code> bottom right</li>
+<li><code>c</code> close window</li>
+<li><code>h</code> left</li>
+<li><code>j</code> down</li>
+<li><code>k</code> up</li>
+<li><code>l</code> right</li>
+<li><code>n</code> new</li>
+<li><code>o</code> enlargen</li>
+<li><code>p</code> mru</li>
+<li><code>q</code> quit</li>
+<li><code>r</code> rotate down</li>
+<li><code>s</code> split</li>
+<li><code>t</code> top left</li>
+<li><code>u</code> winner undo</li>
+<li><code>v</code> vsplit</li>
+<li><code>w</code> next</li>
+<li><code>|</code> set width</li>
+</ul>
+<h2 id="code-folding-evil-mode">Code Folding (evil mode)<a hidden class="anchor" aria-hidden="true" href="#code-folding-evil-mode">#</a></h2>
+<p><code>z</code></p>
+<ul>
+<li><code>a</code> toggle fold</li>
+<li><code>c</code> close fold</li>
+<li><code>m</code> close all folds</li>
+<li><code>r</code> open all folds</li>
+</ul>
+<h2 id="treemarks-only-available-if-treemarks-is-enabled-neotree-is-the-default">Treemarks (Only available if TreeMarks is enabled, NeoTree is the default)<a hidden class="anchor" aria-hidden="true" href="#treemarks-only-available-if-treemarks-is-enabled-neotree-is-the-default">#</a></h2>
+<ul>
+<li><code>?</code> toggle help</li>
+<li><code>j</code>/<code>k</code> navigation</li>
+<li><code>M-j</code>/<code>M-k</code> Nav to neighbout</li>
+<li><code>u</code> go to parent</li>
+<li><code>o</code> open</li>
+<li><code>o</code> no split</li>
+<li><code>v</code> horizontal</li>
+<li><code>s</code> vertical</li>
+<li><code>x</code> externally</li>
+<li><code>c</code> create</li>
+<li><code>f</code> file</li>
+<li><code>d</code> dir</li>
+<li><code>R</code> rename</li>
+<li><code>d</code> delete</li>
+<li><code>y</code> f copy</li>
+<li><code>m</code> move</li>
+<li><code>t</code> toggle</li>
+<li><code>f</code> follow mode</li>
+<li><code>a</code> filewatch mode</li>
+<li><code>g</code> git mode</li>
+<li><code>h</code> show hidden</li>
+<li><code>w</code> resizability</li>
+<li><code>v</code> fringe indicator</li>
+<li><code>C-c</code> <code>C-p</code> project</li>
+<li><code>a</code> add project</li>
+<li><code>d</code> remove project</li>
+<li><code>r</code> rename project</li>
+<li><code>C-c</code> <code>C-w</code> workspace</li>
+<li><code>e</code> edit</li>
+<li><code>a</code> create</li>
+<li><code>d</code> remove</li>
+<li><code>r</code> rename</li>
+<li><code>s</code> switch</li>
+<li><code>f</code> set fallback</li>
+<li><code>g r</code> refresh</li>
+<li><code>w</code> (re)set width</li>
+<li><code>y y</code> copy path</li>
+<li><code>y r</code> copy root</li>
+<li><code>SPC</code> resort</li>
+<li><code>b</code> bookmark</li>
+</ul>
+<h2 id="avy-goto-char">Avy-goto-char<a hidden class="anchor" aria-hidden="true" href="#avy-goto-char">#</a></h2>
+<p>Custom config:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(global-set-key (kbd <span style="color:#e6db74">&#34;C-:&#34;</span>) <span style="color:#e6db74">&#39;avy-goto-char</span>)  
+</span></span></code></pre></div><p><code>C-:</code> <code>char</code> <code>char</code> for quick navigationa</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://kimnux12.github.io/">Linux에 관한 주저리 주러지</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

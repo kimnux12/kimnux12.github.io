@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux에 관한 주저리 주러지</title>
+    <link>https://kimnux12.github.io/</link>
+    <description>Recent content on Linux에 관한 주저리 주러지</description>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kimnux12.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>리눅스에서 VXE75 LED 변경</title>
+      <link>https://kimnux12.github.io/post/2024-06-28-vxe75/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://kimnux12.github.io/post/2024-06-28-vxe75/</guid>
+      <description>리눅스에서 VXE75 LED 변경 윈도우와 리눅스를 듀얼부팅으로 사용하고 있다.
+윈도우는 하드웨어 테스트프로그램 돌릴 때를 제외하곤 거의 사용하지 않지만,
+처음 VXE75를 구입하고서 애를 먹었던 경험이 있다.
+윈도우에 설치하는 vgn 프로그램으로 LED를 변경한 후 리눅스로 부팅하면,
+터미널상에서 아이디와 비밀번호를 넣는 란이 ^@^@&amp;hellip;형태로 무한 입력이 되어버려
+키 입력을 할 수가 없다는 것이다.
+이 문제는 다시 윈도로 부팅한 후 vgn 프로그램상에서 LED를 디폴트(맨 위쪽 제일 앞)로
+다시 변경하면 해결되긴 한다.
+이러면, 리눅스 상에서 LED를 변경할 수 없느냐?</description>
+    </item>
+    <item>
+      <title>bash를 편하고 이쁘게</title>
+      <link>https://kimnux12.github.io/post/2024-06-26-bash-blesh-starship/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://kimnux12.github.io/post/2024-06-26-bash-blesh-starship/</guid>
+      <description>터미널 꾸미기 리눅스를 공부를 위해서든, 취미로 사용하기 위함이든,
+따로 꾸며진 배포판을 설치한 게 아니라면 처음 마주치는
+터미널의 프롬프트 모양은 매우 단조로운 게 사실이다.
+게다가 zsh이나 fish를 설치했다가 bash 공부를 하고자 할 때,
+다른 쉘의 경우 bash와는 다소 다르게 작동하는 경우가 있어,
+이쁘고 편한 쉘을 놔두고 다시 bash로 설치하는 경우도 있을것이다.
+배우는 입장에서는 기본을 따르는 게 제일 좋기도 하고,
+편리함과 알록달록 이쁘기도 해서 현재 bash에서 사용중인 조합을 적어볼까한다.
+색상은 사용하는 터미널의 테마에 따라 조금씩 다르게 나올 수 있다.</description>
+    </item>
+    <item>
+      <title>프리플로우 아콘 RE:AL</title>
+      <link>https://kimnux12.github.io/post/2024-06-26-kor-rainy75-freeflow/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://kimnux12.github.io/post/2024-06-26-kor-rainy75-freeflow/</guid>
+      <description>프리플로우 Archon RE:AL 기존에 사용 중이던 vxe75 청해축과 비교 샷입니다.
+좌우 폭은 사진 상으로는 아콘이 좀 더 큰 것처럼 나왔는데, 실제로는 거의 동일하고
+무게는 아콘이 살짝 더 무겁더군요.
+그런데 기대가 너무 컸나봅니다. wob축으로 주문했는데, 키감이 청해축과 거의 동일합니다.
+오히려 청해축이 윤활이 더 잘 되어 있는건지, 더 쫀득쫀득한 느낌이고, 아콘은 좀 무미건조합니다.
+윤활이 된 게 맞나 싶을 정도로 건조합니다.
+키압은 청해축이나 wob축이나 차이를 느끼지 못할 정도로 비슷하네요.
+하도 레이니 레이니 해서 너무 기대가 컸었나봅니다.</description>
+    </item>
+    <item>
+      <title>Welcome to Jekyll!</title>
+      <link>https://kimnux12.github.io/post/2019-04-18-welcome-to-jekyll/</link>
+      <pubDate>Thu, 18 Apr 2019 15:34:30 -0400</pubDate>
+      <guid>https://kimnux12.github.io/post/2019-04-18-welcome-to-jekyll/</guid>
+      <description>You&amp;rsquo;ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
+To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://kimnux12.github.io/post/2024-06-30-doom-emacs-cheatsheat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kimnux12.github.io/post/2024-06-30-doom-emacs-cheatsheat/</guid>
+      <description>Doom Emacs Default keybindings cheetsheet [출처]https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165
+SPC
+SPC find file , switch bufferA . browse files : MX ; EX &amp;lt; switch buffer ` eval u universal arg x pop up scratch ~ toggle last popup TAB workspace TAB Display tab bar . switch workspace 0 last workspace 1-9 x workspace L load session S autosave current session X delete sessions [ previous workspace ] next workspace d delete workspace l load workspace from file n workspace s save workspace to file x kill all buffers&#39; / search i symbols I symbols accr.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://kimnux12.github.io/post/2024-07-03-doom-emacs-abbr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kimnux12.github.io/post/2024-07-03-doom-emacs-abbr/</guid>
+      <description>org mode 단축키 모음 😆😁😀
+문서 작업 관련 새 버퍼(문서) 만들기 SPC b N
+새 버퍼(문서) 만들기 / 버퍼간 이동 C-x b
+파일 찾기 SPC f f
+이전 버퍼 SPC b p
+다음 버퍼 SPC b n
+switch buffer SPC b B
+clone buffer SPC b c
+문서 변환해서 내보내기(org-pandoc-export) SPC m e
+export dispatcher 이용해서 내보내기(org-export-dispatch) C-c C-e (https://orgmode.org/manual/The-Export-Dispatcher.html#The-Export-Dispatcher)
+최근 작업한 문서들 나열 SPC f r
+버퍼 끄기(문서 종료) SPC b k</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://kimnux12.github.io/post/2024-07-03-insert-src-block-to-org-mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kimnux12.github.io/post/2024-07-03-insert-src-block-to-org-mode/</guid>
+      <description>Org mode에 sourc block 넣기 C-c C-, 입력후 원하는 형식의 단축키 넣기
+&amp;lt; + 원하는 단축키 + TAB
+단축키 유형:
+n - notes
+a - export ascii
+c - center
+C - comment
+e - example
+E - export
+h - export html
+l - export latex
+q - quote
+s - src
+v - verse</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://kimnux12.github.io/post/2024-07-03-vim-change-words-in-visual-mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kimnux12.github.io/post/2024-07-03-vim-change-words-in-visual-mode/</guid>
+      <description>Vim visual mode에서 단어교체 예제)
+1) exam1 2) exam2 3) exam3 4) exam4 위와 같은 예문이 있고,
+* exam1 * exam2 * exam3 * exam4 의 형태로 일괄적으로 바꾸려면?
+ctrl+v
+j j j l
+c * ESC</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://kimnux12.github.io/post/2024-07-04-escape-vim-autopairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kimnux12.github.io/post/2024-07-04-escape-vim-autopairs/</guid>
+      <description>vim 애드온 auto-pairs 괄호 빠져나오기 auto pair는 vim에서 자동으로 괄호를 맞춰서 생성해주는 애드온이다.
+몇가지 종류가 있지만 내가 적응하지 못했던 것 한가지가 있었다.
+자동으로 생성해주는 뒷괄호때문에 esc를 눌러서 커서 오른쪽으로 옮기고 다시 i 누르고..
+너무 귀찮아서 애드온을 아예 사용을 안하고 있었다.
+어느날 유튜브를 보다가 괄호를 아무일 없다는 듯이 빠져나오는 것을 보고 깜짝놀랐다.
+어? 저게 되는거였네!
+그래서 구글링해보았다.
+역시나 빠져 나오는 방법이 있었다.
+1.그냥 뒷 괄호를 입력하면 뒷괄호 다음으로 커서가 자동 이동한다.</description>
+    </item>
+    <item>
+      <title>Wayland 한글 입력 방법(첫 글 테스트)</title>
+      <link>https://kimnux12.github.io/post/2024-06-22-wayland-%ED%95%9C%EA%B8%80/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kimnux12.github.io/post/2024-06-22-wayland-%ED%95%9C%EA%B8%80/</guid>
+      <description>Wayland(hyprland) 한글 입력 설정 며칠 전에 내가 퀘이사존에 올렸던 내용을 홈페이지를 처음 만들어 보는 김에 올려본다. 내용이나 미관은 공부를 좀 하고 적용해봐야 겠다.
+xwindow에서 wayland로 옮긴 이유 유튜브 동영상이 xwindow에서는 30-40fps정도로 플레이되는 느낌. wayland로 옮기고 나서 제대로 부드럽게 동작함. 그리고 mesa 24.1 + wayland + chromium 조합시 아이유 8k 60fps 가능하게 됨.
+NOTE
+2024년 6월 현재 chromium 126 버전은 버그로 인해 유튜브 동영상 화면이 하얗게 표시된다. chromium 설정에서 하드웨어 가속을 꺼야 화면이 제대로 나온다.</description>
+    </item>
+  </channel>
+</rss>
