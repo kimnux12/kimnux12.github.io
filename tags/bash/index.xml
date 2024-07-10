@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash on Linux에 관한 주저리 주저리</title>
+    <link>https://kimnux12.github.io/tags/bash/</link>
+    <description>Recent content in Bash on Linux에 관한 주저리 주저리</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kimnux12.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash를 편하고 이쁘게</title>
+      <link>https://kimnux12.github.io/post/2024-06-26-bash-blesh-starship/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kimnux12.github.io/post/2024-06-26-bash-blesh-starship/</guid>
+      <description>
+        
+          
+            터미널 꾸미기 리눅스를 공부를 위해서든, 취미로 사용하기 위함이든,
+따로 꾸며진 배포판을 설치한 게 아니라면 처음 마주치는
+터미널의 프롬프트 모양은 매우 단조로운 게 사실이다.
+게다가 zsh이나 fish를 설치했다가 bash 공부를 하고자 할 때,
+다른 쉘의 경우 bash와는 다소 다르게 작동하는 경우가 있어,
+이쁘고 편한 쉘을 놔두고 다시 bash로 설치하는 경우도 있을것이다.
+배우는 입장에서는 기본을 따르는 게 제일 좋기도 하고,
+편리함과 알록달록 이쁘기도 해서 현재 bash에서 사용중인 조합을 적어볼까한다.
+색상은 사용하는 터미널의 테마에 따라 조금씩 다르게 나올 수 있다.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

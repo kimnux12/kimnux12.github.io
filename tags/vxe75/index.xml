@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VXE75 on Linux에 관한 주저리 주저리</title>
+    <link>https://kimnux12.github.io/tags/vxe75/</link>
+    <description>Recent content in VXE75 on Linux에 관한 주저리 주저리</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kimnux12.github.io/tags/vxe75/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>리눅스에서 VXE75 LED 변경</title>
+      <link>https://kimnux12.github.io/post/2024-06-28-vxe75/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kimnux12.github.io/post/2024-06-28-vxe75/</guid>
+      <description>
+        
+          
+            리눅스에서 VXE75 LED 변경 윈도우와 리눅스를 듀얼부팅으로 사용하고 있다.
+윈도우는 하드웨어 테스트프로그램 돌릴 때를 제외하곤 거의 사용하지 않지만,
+처음 VXE75를 구입하고서 애를 먹었던 경험이 있다.
+윈도우에 설치하는 vgn 프로그램으로 LED를 변경한 후 리눅스로 부팅하면,
+터미널상에서 아이디와 비밀번호를 넣는 란이 ^@^@&amp;hellip;형태로 무한 입력이 되어버려
+키 입력을 할 수가 없다는 것이다.
+이 문제는 다시 윈도로 부팅한 후 vgn 프로그램상에서 LED를 디폴트(맨 위쪽 제일 앞)로
+다시 변경하면 해결되긴 한다.
+이러면, 리눅스 상에서 LED를 변경할 수 없느냐?
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

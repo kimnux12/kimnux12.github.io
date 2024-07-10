@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>한글 on Linux에 관한 주저리 주저리</title>
+    <link>https://kimnux12.github.io/tags/%ED%95%9C%EA%B8%80/</link>
+    <description>Recent content in 한글 on Linux에 관한 주저리 주저리</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://kimnux12.github.io/tags/%ED%95%9C%EA%B8%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wayland 한글 입력 방법(첫 글 테스트)</title>
+      <link>https://kimnux12.github.io/post/2024-06-22-wayland-%ED%95%9C%EA%B8%80/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kimnux12.github.io/post/2024-06-22-wayland-%ED%95%9C%EA%B8%80/</guid>
+      <description>
+        
+          
+            Wayland(hyprland) 한글 입력 설정 며칠 전에 내가 퀘이사존에 올렸던 내용을 홈페이지를 처음 만들어 보는 김에 올려본다. 내용이나 미관은 공부를 좀 하고 적용해봐야 겠다.
+xwindow에서 wayland로 옮긴 이유 유튜브 동영상이 xwindow에서는 30-40fps정도로 플레이되는 느낌. wayland로 옮기고 나서 제대로 부드럽게 동작함. 그리고 mesa 24.1 + wayland + chromium 조합시 아이유 8k 60fps 가능하게 됨.
+NOTE
+2024년 6월 현재 chromium 126 버전은 버그로 인해 유튜브 동영상 화면이 하얗게 표시된다. chromium 설정에서 하드웨어 가속을 꺼야 화면이 제대로 나온다.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
