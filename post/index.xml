@@ -198,6 +198,23 @@ c * ESC
     </item>
     
     <item>
+      <title>Hugo를 이용해 org문서로 github page만들기</title>
+      <link>https://kimnux12.github.io/post/hugo-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kimnux12.github.io/post/hugo-github/</guid>
+      <description>
+        
+          
+            #+EMAIL : &amp;ldquo;kimnux@gmail.com&amp;rdquo; #+DATE : 2024-07-08
+새 프로젝트 생성 hugo new site Homepage hugo.toml 설정 cd Homepage vi hugo.toml baseURL = &amp;#39;https://kimnux12.github.io/&amp;#39; languageCode = &amp;#39;en-us&amp;#39; title = &amp;#39;Linux에 관한 주저리 주저리&amp;#39; theme = &amp;#39;hugo-clarity&amp;#39; 선택한 테마를 설치하고 git 서브모듈 등록하기 cd ~/Homepage git init git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-clarity 새 포스트 작성하기 hugo new post/test.md hugo 서버 실행 cd ~/Homepage hugo serve -D 옵션은 draft:true로 설정되어 있을 경우를 대비하기 위함.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Wayland 한글 입력 방법(첫 글 테스트)</title>
       <link>https://kimnux12.github.io/post/2024-06-22-wayland-%ED%95%9C%EA%B8%80/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
