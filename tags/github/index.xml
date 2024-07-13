@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Linux에 관한 주저리 주저리</title>
+    <link>https://kimnux12.github.io/tags/github/</link>
+    <description>Recent content in Github on Linux에 관한 주저리 주저리</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kimnux12.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo를 이용해 org문서를 github pages에 올리기</title>
+      <link>https://kimnux12.github.io/post/hugo-github/</link>
+      <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kimnux12.github.io/post/hugo-github/</guid>
+      <description>
+        
+          
+            org문서의 in-buffer설정 doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에 org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다. #+HUGO_BASE_DIR: /home/kimnux/Homepage #+HUGO_SECTION: post 위에서 Homepege는 새 프로젝트로 사용할 디렉토리이고, post는 /home/kimnux/Homepage/content/post의 post이다. 새 프로젝트 생성 hugo new site Homepage hugo.toml 설정 cd Homepage vi hugo.toml baseURL = &amp;#39;https://kimnux12.github.io/&amp;#39; languageCode = &amp;#39;en-us&amp;#39; title = &amp;#39;Linux에 관한 주저리 주저리&amp;#39; theme = &amp;#39;hugo-clarity&amp;#39; 선택한 테마를 설치하고 git 서브모듈 등록하기 cd ~/Homepage git init git submodule add https://github.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

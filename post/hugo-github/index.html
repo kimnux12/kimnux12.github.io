@@ -23,14 +23,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="org문서의 in-buffer설정 :hugo:ox-hugo: doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에 org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다. #&#43;HUGO_BASE_DIR: …" />
+<meta name="description" content="org문서의 in-buffer설정 doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에 org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다. #&#43;HUGO_BASE_DIR: /home/kimnux/Homepage …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Hugo를 이용해 org문서를 github pages에 올리기" />
 <meta name="twitter:image" content="https://kimnux12.github.io/"/>
 <meta property="og:url" content="https://kimnux12.github.io/post/hugo-github/" />
 <meta property="og:title" content="Hugo를 이용해 org문서를 github pages에 올리기" />
-<meta property="og:description" content="org문서의 in-buffer설정 :hugo:ox-hugo: doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에 org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다. #&#43;HUGO_BASE_DIR: …" />
+<meta property="og:description" content="org문서의 in-buffer설정 doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에 org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다. #&#43;HUGO_BASE_DIR: /home/kimnux/Homepage …" />
 <meta property="og:image" content="https://kimnux12.github.io/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://kimnux12.github.io/icons/apple-touch-icon.png">
@@ -105,7 +105,11 @@
 </span>
     <span class="post_date">
       Jul 13, 2024</span>
-    <span class="post_time"> · 1 min read</span>
+    <span class="post_time"> · 1 min read</span><span>&nbsp;· <a href='https://kimnux12.github.io/tags/hugo/' title="hugo" class="post_tag button button_translucent">hugo
+        </a><a href='https://kimnux12.github.io/tags/ox-hugo/' title="ox-hugo" class="post_tag button button_translucent">ox-hugo
+        </a><a href='https://kimnux12.github.io/tags/github/' title="github" class="post_tag button button_translucent">github
+        </a>
+    </span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
@@ -141,13 +145,13 @@
   </span>
   </div>
 
-    <div class="post_body"><h2 id="org문서의-in-buffer설정-hugo-ox-hugo">org문서의 in-buffer설정  :hugo:ox-hugo:</h2>
-<p>doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에 <!-- raw HTML omitted -->
-org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다. <!-- raw HTML omitted --></p>
+    <div class="post_body"><h2 id="org문서의-in-buffer설정">org문서의 in-buffer설정</h2>
+<p>doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에 <br/><br>
+org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다. <br/></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>#+HUGO_BASE_DIR: /home/kimnux/Homepage
 </span></span><span style="display:flex;"><span>#+HUGO_SECTION: post
-</span></span></code></pre></div><p>위에서 Homepege는 새 프로젝트로 사용할 디렉토리이고, <!-- raw HTML omitted -->
-post는 /home/kimnux/Homepage/content/post의 post이다. <!-- raw HTML omitted --></p>
+</span></span></code></pre></div><p>위에서 Homepege는 새 프로젝트로 사용할 디렉토리이고, <br/><br>
+post는 /home/kimnux/Homepage/content/post의 post이다. <br/></p>
 <h2 id="새-프로젝트-생성">새 프로젝트 생성</h2>
 <pre tabindex="0"><code class="language-nil" data-lang="nil">hugo new site Homepage
 </code></pre><h2 id="hugo-dot-toml-설정">hugo.toml 설정</h2>
@@ -158,7 +162,7 @@ post는 /home/kimnux/Homepage/content/post의 post이다. <!-- raw HTML omitted 
 </span></span><span style="display:flex;"><span>languageCode = &#39;en-us&#39;
 </span></span><span style="display:flex;"><span>title = &#39;Linux에 관한 주저리 주저리&#39;
 </span></span><span style="display:flex;"><span>theme = &#39;hugo-clarity&#39;
-</span></span></code></pre></div><h2 id="선택한-테마를-설치하고-git-서브모듈-등록하기">선택한 테마를 설치하고 git 서브모듈 등록하기 <!-- raw HTML omitted --><!-- raw HTML omitted -->hugo<!-- raw HTML omitted --><!-- raw HTML omitted -->git<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+</span></span></code></pre></div><h2 id="선택한-테마를-설치하고-git-서브모듈-등록하기">선택한 테마를 설치하고 git 서브모듈 등록하기</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/Homepage
 </span></span><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-clarity
@@ -167,24 +171,24 @@ post는 /home/kimnux/Homepage/content/post의 post이다. <!-- raw HTML omitted 
 </span></span></code></pre></div><h2 id="hugo-서버-실행">hugo 서버 실행</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/Homepage
 </span></span><span style="display:flex;"><span>hugo serve
-</span></span></code></pre></div><p>-D 옵션은 draft:true로 설정되어 있을 경우를 대비하기 위함. <!-- raw HTML omitted --></p>
+</span></span></code></pre></div><p>-D 옵션은 draft:true로 설정되어 있을 경우를 대비하기 위함. <br/></p>
 <h2 id="로컬-접속">로컬 접속</h2>
-<p>localhost:1313 으로 접속해서 상태 확인 <!-- raw HTML omitted --></p>
+<p>localhost:1313 으로 접속해서 상태 확인 <br/></p>
 <h2 id="https-github-dot-com-kimnux12-kimnux12-dot-github-dot-io-설정-확인"><a href="https://github.com/kimnux12/kimnux12.github.io">https://github.com/kimnux12/kimnux12.github.io</a> 설정 확인</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Settings -&gt; Pages -&gt; Select the &#34;master&#34; branch -&gt; Save
-</span></span></code></pre></div><p><figure><img src="images/git-01.png">
+</span></span></code></pre></div><p><figure><img src="/images/git-01.png">
 </figure>
- <!-- raw HTML omitted --></p>
-<p>&lsquo;Deploy from a branch&rsquo; 선택 -&gt; master 선택 -&gt; save <!-- raw HTML omitted -->
-출처 : <a href="https://dilipsundarraj.com/own-website/hugo-github-pages/">https://dilipsundarraj.com/own-website/hugo-github-pages/</a> <!-- raw HTML omitted --></p>
+ <br/></p>
+<p>&lsquo;Deploy from a branch&rsquo; 선택 -&gt; master 선택 -&gt; save <br/><br>
+출처 : <a href="https://dilipsundarraj.com/own-website/hugo-github-pages/">https://dilipsundarraj.com/own-website/hugo-github-pages/</a> <br/></p>
 <h2 id="깃허브-원격저장소에-hugo-website-올리기">깃허브 원격저장소에 hugo website 올리기</h2>
 <h3 id="빌드하기">빌드하기</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/Homepage
 </span></span><span style="display:flex;"><span>hugo
 </span></span></code></pre></div><h3 id="kimnux12-dot-github-dot-io를-로컬-저장소로-클론하기">kimnux12.github.io를 로컬 저장소로 클론하기</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://kimnux12:token@github.com/kimnux12/kimnux12.github.io.git
-</span></span></code></pre></div><p>token은 github에 저장소를 만들때 부여받은 각자의 token. <!-- raw HTML omitted -->
-사용자명과 github주소는 각자의 것들을 기입해야한다. <!-- raw HTML omitted --></p>
+</span></span></code></pre></div><p>token은 github에 저장소를 만들때 부여받은 각자의 token. <br/><br>
+사용자명과 github주소는 각자의 것들을 기입해야한다. <br/></p>
 <h3 id="public-폴더의-내용을-clone-받은-폴더로-옮기기">public 폴더의 내용을 clone 받은 폴더로 옮기기</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mv ~/Homepage/public/* ./kimnux12.github.io
 </span></span></code></pre></div><h3 id="kimnux12-dot-github-dot-io-원격저장소로-push하기">kimnux12.github.io 원격저장소로 push하기</h3>
@@ -192,7 +196,7 @@ post는 /home/kimnux/Homepage/content/post의 post이다. <!-- raw HTML omitted 
 </span></span><span style="display:flex;"><span>git add .
 </span></span><span style="display:flex;"><span>git commit -am <span style="color:#e6db74">&#39;adding all the content&#39;</span>
 </span></span><span style="display:flex;"><span>git push
-</span></span></code></pre></div><p>추후 새로운 글을 작성하면, 빌드하고 ./kimnux12.github.io로 복사(cp -r)하고 push하면 된다. <!-- raw HTML omitted --></p>
+</span></span></code></pre></div><p>추후 새로운 글을 작성하면, 빌드하고 ./kimnux12.github.io로 복사(cp -r)하고 push하면 된다. <br/></p>
 
     </div>
 <div class="post_comments">
@@ -258,8 +262,23 @@ post는 /home/kimnux/Homepage/content/post의 post이다. <!-- raw HTML omitted 
           <span class="button_tally">1</span>
         </a>
         
+        <a href='https://kimnux12.github.io/tags/github/' class="post_tag button button_translucent" title="github">
+          GITHUB
+          <span class="button_tally">1</span>
+        </a>
+        
+        <a href='https://kimnux12.github.io/tags/hugo/' class="post_tag button button_translucent" title="hugo">
+          HUGO
+          <span class="button_tally">1</span>
+        </a>
+        
         <a href='https://kimnux12.github.io/tags/hyprland/' class="post_tag button button_translucent" title="hyprland">
           HYPRLAND
+          <span class="button_tally">1</span>
+        </a>
+        
+        <a href='https://kimnux12.github.io/tags/ox-hugo/' class="post_tag button button_translucent" title="ox-hugo">
+          OX-HUGO
           <span class="button_tally">1</span>
         </a>
         
