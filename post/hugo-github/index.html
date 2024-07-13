@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>Hugo를 이용해 org문서로 github page만들기 | Linux에 관한 주저리 주저리</title>
+<title>Hugo를 이용해 org문서를 github pages에 올리기 | Linux에 관한 주저리 주저리</title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -23,16 +23,16 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="#&#43;EMAIL : &ldquo;kimnux@gmail.com&rdquo; #&#43;DATE : 2024-07-08
-새 프로젝트 생성 hugo new site Homepage hugo.toml 설정 cd Homepage vi hugo.toml baseURL = …" />
+<meta name="description" content="org문서의 in-buffer설정 doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에 org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다.
+#&#43;HUGO_BASE_DIR: /home/kimnux/Homepage …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Hugo를 이용해 org문서로 github page만들기" />
+<meta name="twitter:title" content="Hugo를 이용해 org문서를 github pages에 올리기" />
 <meta name="twitter:image" content="https://kimnux12.github.io/"/>
 <meta property="og:url" content="https://kimnux12.github.io/post/hugo-github/" />
-<meta property="og:title" content="Hugo를 이용해 org문서로 github page만들기" />
-<meta property="og:description" content="#&#43;EMAIL : &ldquo;kimnux@gmail.com&rdquo; #&#43;DATE : 2024-07-08
-새 프로젝트 생성 hugo new site Homepage hugo.toml 설정 cd Homepage vi hugo.toml baseURL = …" />
+<meta property="og:title" content="Hugo를 이용해 org문서를 github pages에 올리기" />
+<meta property="og:description" content="org문서의 in-buffer설정 doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에 org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다.
+#&#43;HUGO_BASE_DIR: /home/kimnux/Homepage …" />
 <meta property="og:image" content="https://kimnux12.github.io/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://kimnux12.github.io/icons/apple-touch-icon.png">
@@ -98,7 +98,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Hugo를 이용해 org문서로 github page만들기</h1>
+    <h1 class="post_title">Hugo를 이용해 org문서를 github pages에 올리기</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -106,19 +106,19 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 1, 0001</span>
+      Jul 13, 2024</span>
     <span class="post_time"> · 1 min read</span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Hugo%eb%a5%bc%20%ec%9d%b4%ec%9a%a9%ed%95%b4%20org%eb%ac%b8%ec%84%9c%eb%a1%9c%20github%20page%eb%a7%8c%eb%93%a4%ea%b8%b0&url=https%3a%2f%2fkimnux12.github.io%2fpost%2fhugo-github%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Hugo%eb%a5%bc%20%ec%9d%b4%ec%9a%a9%ed%95%b4%20org%eb%ac%b8%ec%84%9c%eb%a5%bc%20github%20pages%ec%97%90%20%ec%98%ac%eb%a6%ac%ea%b8%b0&url=https%3a%2f%2fkimnux12.github.io%2fpost%2fhugo-github%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkimnux12.github.io%2fpost%2fhugo-github%2f&t=Hugo%eb%a5%bc%20%ec%9d%b4%ec%9a%a9%ed%95%b4%20org%eb%ac%b8%ec%84%9c%eb%a1%9c%20github%20page%eb%a7%8c%eb%93%a4%ea%b8%b0" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkimnux12.github.io%2fpost%2fhugo-github%2f&t=Hugo%eb%a5%bc%20%ec%9d%b4%ec%9a%a9%ed%95%b4%20org%eb%ac%b8%ec%84%9c%eb%a5%bc%20github%20pages%ec%97%90%20%ec%98%ac%eb%a6%ac%ea%b8%b0" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -143,8 +143,13 @@
   </span>
   </div>
 
-    <div class="post_body"><p>#+EMAIL : &ldquo;<a href="mailto:kimnux@gmail.com">kimnux@gmail.com</a>&rdquo;
-#+DATE : 2024-07-08</p>
+    <div class="post_body"><h2 id="org문서의-in-buffer설정">org문서의 in-buffer설정</h2>
+<p>doom emacs에서 ox-hugo를 이용해 markdown으로 변환시킬 것이기 때문에
+org문서의 in-buffer에 적는 metadata에 다음을 반드시 추가해야한다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>#+HUGO_BASE_DIR: /home/kimnux/Homepage
+</span></span><span style="display:flex;"><span>#+HUGO_SECTION: post
+</span></span></code></pre></div><p>위에서 Homepege는 새 프로젝트로 사용할 디렉토리이고,
+post는 /home/kimnux/Homepage/content/post의 post이다.</p>
 <h2 id="새-프로젝트-생성">새 프로젝트 생성</h2>
 <pre tabindex="0"><code class="language-nil" data-lang="nil">hugo new site Homepage
 </code></pre><h2 id="hugo-dot-toml-설정">hugo.toml 설정</h2>
@@ -157,15 +162,12 @@
 </span></span><span style="display:flex;"><span>theme = &#39;hugo-clarity&#39;
 </span></span></code></pre></div><h2 id="선택한-테마를-설치하고-git-서브모듈-등록하기">선택한 테마를 설치하고 git 서브모듈 등록하기</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/Homepage
-</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>git init
-</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-clarity
 </span></span></code></pre></div><h2 id="새-포스트-작성하기">새 포스트 작성하기</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new post/test.md
 </span></span></code></pre></div><h2 id="hugo-서버-실행">hugo 서버 실행</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/Homepage
-</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>hugo serve
 </span></span></code></pre></div><p>-D 옵션은 draft:true로 설정되어 있을 경우를 대비하기 위함.</p>
 <h2 id="로컬-접속">로컬 접속</h2>
@@ -189,7 +191,7 @@
       alt=""
       
         class="image_figure image_internal image_unprocessed"
-        src="/home/kimnux/org/git-01.png"
+        src="images/git-01.png"
       
       
     />
@@ -202,19 +204,17 @@
 <h2 id="깃허브-원격저장소에-hugo-website-올리기">깃허브 원격저장소에 hugo website 올리기</h2>
 <h3 id="빌드하기">빌드하기</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/Homepage
-</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>hugo
 </span></span></code></pre></div><h3 id="kimnux12-dot-github-dot-io를-로컬-저장소로-클론하기">kimnux12.github.io를 로컬 저장소로 클론하기</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://kimnux12:token@github.com/kimnux12/kimnux12.github.io.git
-</span></span></code></pre></div><h3 id="public-폴더의-내용을-clone-받은-폴더로-옮기기">public 폴더의 내용을 clone 받은 폴더로 옮기기</h3>
+</span></span></code></pre></div><p>token은 github에 저장소를 만들때 부여받은 각자의 token.
+사용자명과 github주소는 각자의 것들을 기입해야한다.</p>
+<h3 id="public-폴더의-내용을-clone-받은-폴더로-옮기기">public 폴더의 내용을 clone 받은 폴더로 옮기기</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mv ~/Homepage/public/* ./kimnux12.github.io
 </span></span></code></pre></div><h3 id="kimnux12-dot-github-dot-io-원격저장소로-push하기">kimnux12.github.io 원격저장소로 push하기</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ./kimnux12.github.io
-</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>git commit -am <span style="color:#e6db74">&#39;adding all the content&#39;</span>
-</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>git push
 </span></span></code></pre></div><p>추후 새로운 글을 작성하면, 빌드하고 ./kimnux12.github.io로 복사(cp -r)하고 push하면 된다.</p>
 
@@ -240,6 +240,9 @@
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
+        <a href="https://kimnux12.github.io/post/hugo-github/" class="nav-link" title="Hugo를 이용해 org문서를 github pages에 올리기">Hugo를 이용해 org문서를 github pages에 올리기</a>
+      </li>
+      <li>
         <a href="https://kimnux12.github.io/post/2024-06-28-vxe75/" class="nav-link" title="리눅스에서 VXE75 LED 변경">리눅스에서 VXE75 LED 변경</a>
       </li>
       <li>
@@ -259,9 +262,6 @@
       </li>
       <li>
         <a href="https://kimnux12.github.io/post/2024-07-03-vim-change-words-in-visual-mode/" class="nav-link" title=""></a>
-      </li>
-      <li>
-        <a href="https://kimnux12.github.io/post/2024-07-04-escape-vim-autopairs/" class="nav-link" title=""></a>
       </li>
     </ul>
     <div>
